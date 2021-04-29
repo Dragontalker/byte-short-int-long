@@ -39,5 +39,12 @@ public class Main {
 
         short myNewShortValue = (short) (myMinIntValue / 2);
         System.out.println("The casting short value is " + myNewShortValue);
+
+        // Challenge:
+        byte myByteValue = 20;
+        short myShortValue = 2000;
+        int myIntValue = 200000;
+        long longTotal = 50000 + 10 * (myByteValue + myShortValue + myIntValue);
+        System.out.println("The total is " + longTotal);
     }
 }
