@@ -13,5 +13,10 @@ public class Main {
 
         int myMaxIntTest = 2_147_483_647;
         System.out.println(myMaxIntTest);
+
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Minimum Value = " + myMinByteValue);
+        System.out.println("Byte Maximum Value = " + myMaxByteValue);
     }
 }
