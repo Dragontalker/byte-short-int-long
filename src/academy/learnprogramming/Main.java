@@ -41,10 +41,11 @@ public class Main {
         System.out.println("The casting short value is " + myNewShortValue);
 
         // Challenge:
-        byte myByteValue = 20;
-        short myShortValue = 2000;
-        int myIntValue = 200000;
-        long longTotal = 50000 + 10 * (myByteValue + myShortValue + myIntValue);
+        byte myByteValue = 10;
+        short myShortValue = 20;
+        int myIntValue = 50;
+        
+        long longTotal = 50000L + 10L * (myByteValue + myShortValue + myIntValue);
         System.out.println("The total is " + longTotal);
     }
 }
